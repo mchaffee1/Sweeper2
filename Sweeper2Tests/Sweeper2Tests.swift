@@ -1,11 +1,3 @@
-//
-//  Sweeper2Tests.swift
-//  Sweeper2Tests
-//
-//  Created by Michael Chaffee on 10/15/16.
-//  Copyright © 2016 Michael Chaffee. All rights reserved.
-//
-
 import XCTest
 @testable import Sweeper2
 
