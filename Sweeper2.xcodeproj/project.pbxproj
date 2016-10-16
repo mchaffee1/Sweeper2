@@ -17,6 +17,7 @@
 		60249D741DB2B55E00F7E87A /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D731DB2B55E00F7E87A /* GameSquare.swift */; };
 		60249D761DB2BA5E00F7E87A /* GameSquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D751DB2BA5E00F7E87A /* GameSquareTests.swift */; };
 		6089B8B81DB2C6D600AD6F19 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6089B8B71DB2C6D600AD6F19 /* GameBoardTests.swift */; };
+		6089B8BB1DB3EBE100AD6F19 /* TestableGameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */; };
 		B659C29DC84E3FB97E7AEB10 /* Pods_Sweeper2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFFBFA6EB7B6BFCEBC34739 /* Pods_Sweeper2.framework */; };
 		FBD89B32B2E54E2DF4E80883 /* Pods_Sweeper2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6FD428C5965699238C24D0 /* Pods_Sweeper2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		60249D731DB2B55E00F7E87A /* GameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		60249D751DB2BA5E00F7E87A /* GameSquareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquareTests.swift; sourceTree = "<group>"; };
 		6089B8B71DB2C6D600AD6F19 /* GameBoardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
+		6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestableGameSquare.swift; sourceTree = "<group>"; };
 		7D6FD428C5965699238C24D0 /* Pods_Sweeper2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweeper2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75E5D727C850B191175F8C2 /* Pods-Sweeper2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBFFBFA6EB7B6BFCEBC34739 /* Pods_Sweeper2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweeper2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 		60249D641DB2B3F100F7E87A /* Sweeper2Tests */ = {
 			isa = PBXGroup;
 			children = (
+				6089B8B91DB3EBB600AD6F19 /* Mocks */,
 				60249D651DB2B3F100F7E87A /* Sweeper2Tests.swift */,
 				60249D671DB2B3F100F7E87A /* Info.plist */,
 				60249D751DB2BA5E00F7E87A /* GameSquareTests.swift */,
@@ -135,6 +138,14 @@
 				60249D731DB2B55E00F7E87A /* GameSquare.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6089B8B91DB3EBB600AD6F19 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		DB928F4B15C525EEB45297BA /* Pods */ = {
@@ -365,6 +376,7 @@
 			files = (
 				60249D761DB2BA5E00F7E87A /* GameSquareTests.swift in Sources */,
 				60249D661DB2B3F100F7E87A /* Sweeper2Tests.swift in Sources */,
+				6089B8BB1DB3EBE100AD6F19 /* TestableGameSquare.swift in Sources */,
 				6089B8B81DB2C6D600AD6F19 /* GameBoardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

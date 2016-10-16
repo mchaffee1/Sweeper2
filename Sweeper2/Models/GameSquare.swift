@@ -19,17 +19,19 @@ extension GameSquareState: Equatable { }
 
 protocol GameSquareType {
   var state: GameSquareState { get }
+  var hasMine: Bool { get }
   func tap() -> GameSquareType
+  func withNeighbors(_ neighbors: [GameSquareType]) -> GameSquareType
 }
 
 struct GameSquare: GameSquareType {
   let state: GameSquareState
-  private let hasMine: Bool
+  let hasMine: Bool
   private let neighborMineCount: Int
   
   init(withProbability probability: Int) {
     self.state = .Blank
-    self.hasMine = Int(arc4random_uniform(100)) <= probability
+    self.hasMine = Int(arc4random_uniform(100)) < probability
     self.neighborMineCount = 0
   }
   
@@ -39,8 +41,11 @@ struct GameSquare: GameSquareType {
     self.neighborMineCount = neighborMineCount
   }
   
-  func withNeighbors(_ neighbors: [GameSquare]) -> GameSquare {
-    let neighborMineCount = neighbors.filter({$0.hasMine}).count
+  func withNeighbors(_ neighbors: [GameSquareType]) -> GameSquareType {
+    let neighborMineCount = neighbors.filter({ square in
+      guard let gameSquare = square as? GameSquare else { return false }
+      return gameSquare.hasMine
+    }).count
     return GameSquare(withState: self.state, withMine: self.hasMine, withNeighborMineCount: neighborMineCount)
   }
   

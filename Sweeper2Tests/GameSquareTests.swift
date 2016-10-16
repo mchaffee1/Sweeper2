@@ -17,7 +17,7 @@ class GameSquareTests: QuickSpec {
         
         let badNeighbor = GameSquare(withState: .Blank, withMine: true)
         let goodNeighbor = GameSquare(withState: .Blank, withMine: false)
-        let neighbors = [GameSquare]([(repeatElement(goodNeighbor, count: neighborMineCount)), (repeatElement(badNeighbor, count: neighborMineCount))].joined())
+        let neighbors = [GameSquare]([(repeatElement(goodNeighbor, count: neighborMineCount + 1)), (repeatElement(badNeighbor, count: neighborMineCount))].joined())
         
         let square = GameSquare(withProbability: 0).withNeighbors(neighbors).tap()
         expect(square.state).to(equal(GameSquareState.Cleared(withCount: neighborMineCount)))
