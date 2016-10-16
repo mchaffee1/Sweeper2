@@ -108,6 +108,7 @@
 		60249D4F1DB2B3F100F7E87A /* Sweeper2 */ = {
 			isa = PBXGroup;
 			children = (
+				6089B8BC1DB40D8700AD6F19 /* Views */,
 				60249D701DB2B50D00F7E87A /* Models */,
 				60249D501DB2B3F100F7E87A /* AppDelegate.swift */,
 				60249D521DB2B3F100F7E87A /* ViewController.swift */,
@@ -146,6 +147,13 @@
 				6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		6089B8BC1DB40D8700AD6F19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DB928F4B15C525EEB45297BA /* Pods */ = {
