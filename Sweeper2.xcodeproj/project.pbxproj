@@ -7,176 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B6282AD1DB4248F00E936BA /* GameSquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6282AC1DB4248F00E936BA /* GameSquareViewModel.swift */; };
-		2B6282AF1DB5229400E936BA /* GameSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6282AE1DB5229400E936BA /* GameSquareView.swift */; };
-		60249D511DB2B3F100F7E87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D501DB2B3F100F7E87A /* AppDelegate.swift */; };
-		60249D531DB2B3F100F7E87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D521DB2B3F100F7E87A /* ViewController.swift */; };
-		60249D561DB2B3F100F7E87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60249D541DB2B3F100F7E87A /* Main.storyboard */; };
-		60249D581DB2B3F100F7E87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60249D571DB2B3F100F7E87A /* Assets.xcassets */; };
-		60249D5B1DB2B3F100F7E87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60249D591DB2B3F100F7E87A /* LaunchScreen.storyboard */; };
-		60249D661DB2B3F100F7E87A /* Sweeper2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D651DB2B3F100F7E87A /* Sweeper2Tests.swift */; };
-		60249D721DB2B53000F7E87A /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D711DB2B53000F7E87A /* GameBoard.swift */; };
-		60249D741DB2B55E00F7E87A /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D731DB2B55E00F7E87A /* GameSquare.swift */; };
-		60249D761DB2BA5E00F7E87A /* GameSquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D751DB2BA5E00F7E87A /* GameSquareTests.swift */; };
-		6089B8B81DB2C6D600AD6F19 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6089B8B71DB2C6D600AD6F19 /* GameBoardTests.swift */; };
-		6089B8BB1DB3EBE100AD6F19 /* TestableGameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */; };
-		B659C29DC84E3FB97E7AEB10 /* Pods_Sweeper2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFFBFA6EB7B6BFCEBC34739 /* Pods_Sweeper2.framework */; };
-		FBD89B32B2E54E2DF4E80883 /* Pods_Sweeper2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6FD428C5965699238C24D0 /* Pods_Sweeper2Tests.framework */; };
+		25DF376A79E5F66345A379933B453DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FC393B24FCB706BC0953CF1DE36917 /* Assets.xcassets */; };
+		2B29C774A14C671504936CD9BD9CE541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91363827B71C3539216514BC7238B00 /* LaunchScreen.storyboard */; };
+		333AB6764F8435417E5E995DF398F27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599C63A0501A25C5FDCEB26FB873053A /* Main.storyboard */; };
+		37D6D5BFF0A3F9E46EBF27BBF4A18969 /* Sweeper2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7265FEDF08767491AA401D3E582F4579 /* Sweeper2Tests.swift */; };
+		576C4D195A12F8F61E74A0FAA1773094 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976CEB7F712C12F61F7FEA6E94BCDD17 /* GameSquare.swift */; };
+		6B50F568CC25F526300674B54B0E99AE /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2442D781E1290415B24D6F1F91315 /* GameBoard.swift */; };
+		702CAA95FACFD2DDC33F947CEE01FA30 /* GameSquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFDC16463F4742DC5171573F793EBE /* GameSquareViewModel.swift */; };
+		821052E2F65B5C8BD4892A261BEF544F /* GameSquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43ACDEFFE0A593C8DD7F47771BC62F0 /* GameSquareTests.swift */; };
+		8E557B6FA947E2D3A82803A2A373857E /* TestableGameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F92ED9E6FE3176BBF064F2BF41FDD /* TestableGameSquare.swift */; };
+		91E585408AC3660BEDB3102730808187 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F173BD85E36070FAADC2C29A8B8145 /* GameBoardTests.swift */; };
+		9B46661AF4196D046F40B6EF5843D0C9 /* Pods_Sweeper2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D75F6C38023826ADF8FD47DCFC9AA /* Pods_Sweeper2Tests.framework */; };
+		B71CFB41E922C99EF7F792FF4DB47689 /* Pods_Sweeper2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65014BA92C92CE7902B45C19AF3EF101 /* Pods_Sweeper2.framework */; };
+		CE5665D5CF92520CBC0AD7CF469E26CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB24865C7214A93520EA186413B3431 /* ViewController.swift */; };
+		E2CA1B61EB474A5A94D907EF1A84322F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A92BCBD9964F5CC78C9DA5D1D4ECD /* AppDelegate.swift */; };
+		EDEA13C40B0B87AA64ABA92E363906C5 /* GameSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151D9AA0E73D4A7B0A033524D59E12F /* GameSquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		60249D621DB2B3F100F7E87A /* PBXContainerItemProxy */ = {
+		3675837033047EE09BBDE1FAAAC4618D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 60249D451DB2B3F100F7E87A /* Project object */;
+			containerPortal = 6599C2FED11C8F164A0E810ED0BE26E9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60249D4C1DB2B3F100F7E87A;
+			remoteGlobalIDString = FACE04F59B5466CB63D3F1A1E8667D81;
 			remoteInfo = Sweeper2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F0905EF1FA6A43BF489BF9 /* Pods-Sweeper2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2.release.xcconfig"; sourceTree = "<group>"; };
-		2B6282AC1DB4248F00E936BA /* GameSquareViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquareViewModel.swift; sourceTree = "<group>"; };
-		2B6282AE1DB5229400E936BA /* GameSquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameSquareView.swift; path = Sweeper2/ViewModels/GameSquareView.swift; sourceTree = SOURCE_ROOT; };
-		3F283973B475CA472B2D98E0 /* Pods-Sweeper2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2.debug.xcconfig"; sourceTree = "<group>"; };
-		60249D4D1DB2B3F100F7E87A /* Sweeper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweeper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		60249D501DB2B3F100F7E87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60249D521DB2B3F100F7E87A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		60249D551DB2B3F100F7E87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60249D571DB2B3F100F7E87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		60249D5A1DB2B3F100F7E87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		60249D5C1DB2B3F100F7E87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60249D611DB2B3F100F7E87A /* Sweeper2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sweeper2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60249D651DB2B3F100F7E87A /* Sweeper2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweeper2Tests.swift; sourceTree = "<group>"; };
-		60249D671DB2B3F100F7E87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60249D711DB2B53000F7E87A /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
-		60249D731DB2B55E00F7E87A /* GameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
-		60249D751DB2BA5E00F7E87A /* GameSquareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquareTests.swift; sourceTree = "<group>"; };
-		6089B8B71DB2C6D600AD6F19 /* GameBoardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
-		6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestableGameSquare.swift; sourceTree = "<group>"; };
-		7D6FD428C5965699238C24D0 /* Pods_Sweeper2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweeper2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75E5D727C850B191175F8C2 /* Pods-Sweeper2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CBFFBFA6EB7B6BFCEBC34739 /* Pods_Sweeper2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweeper2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF590FB2710622679655F37E /* Pods-Sweeper2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		321D75F6C38023826ADF8FD47DCFC9AA /* Pods_Sweeper2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweeper2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6151D9AA0E73D4A7B0A033524D59E12F /* GameSquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameSquareView.swift; path = Sweeper2/Views/GameSquareView.swift; sourceTree = SOURCE_ROOT; };
+		65014BA92C92CE7902B45C19AF3EF101 /* Pods_Sweeper2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweeper2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7265FEDF08767491AA401D3E582F4579 /* Sweeper2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweeper2Tests.swift; sourceTree = "<group>"; };
+		7BEAF8D955BFA40D8EC368A421210EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBCB5E6E842B58496B4FDC3683A04A0 /* Pods-Sweeper2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2.debug.xcconfig"; sourceTree = "<group>"; };
+		976CEB7F712C12F61F7FEA6E94BCDD17 /* GameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		98F173BD85E36070FAADC2C29A8B8145 /* GameBoardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
+		A2D1AA99A2E73C4CFFF0EBA401D59831 /* Pods-Sweeper2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A5C9B944139B1D5ABAF37A6E8D08CB29 /* Sweeper2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sweeper2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3DCCE6345F151F60C8B0D30B568266 /* Pods-Sweeper2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDCFDC16463F4742DC5171573F793EBE /* GameSquareViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquareViewModel.swift; sourceTree = "<group>"; };
+		CF7881FCB20F995A2A61F546F43EEF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05A92BCBD9964F5CC78C9DA5D1D4ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1CB480848994F2871B48C5C11323A68 /* Sweeper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweeper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C577A348D9497BC25A3A91AC9B0905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E2442D781E1290415B24D6F1F91315 /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		DAB24865C7214A93520EA186413B3431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBA1E59EF95A0E87341C3DE58C7836F3 /* Pods-Sweeper2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2.release.xcconfig"; sourceTree = "<group>"; };
+		E43ACDEFFE0A593C8DD7F47771BC62F0 /* GameSquareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquareTests.swift; sourceTree = "<group>"; };
+		F42F92ED9E6FE3176BBF064F2BF41FDD /* TestableGameSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestableGameSquare.swift; sourceTree = "<group>"; };
+		F4FC393B24FCB706BC0953CF1DE36917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD428F25E97CCEE76AAA1A1973323DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60249D4A1DB2B3F100F7E87A /* Frameworks */ = {
+		3A61989A116CB12399D902170BAC9DB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B659C29DC84E3FB97E7AEB10 /* Pods_Sweeper2.framework in Frameworks */,
+				B71CFB41E922C99EF7F792FF4DB47689 /* Pods_Sweeper2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60249D5E1DB2B3F100F7E87A /* Frameworks */ = {
+		49B37B71219D705A4C14E972CC1334D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD89B32B2E54E2DF4E80883 /* Pods_Sweeper2Tests.framework in Frameworks */,
+				9B46661AF4196D046F40B6EF5843D0C9 /* Pods_Sweeper2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1804868D1865E69A84DE64C4 /* Frameworks */ = {
+		5B68721A426954C5A6DBAA1DB2DAAEE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBFFBFA6EB7B6BFCEBC34739 /* Pods_Sweeper2.framework */,
-				7D6FD428C5965699238C24D0 /* Pods_Sweeper2Tests.framework */,
+				65014BA92C92CE7902B45C19AF3EF101 /* Pods_Sweeper2.framework */,
+				321D75F6C38023826ADF8FD47DCFC9AA /* Pods_Sweeper2Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B6282AB1DB4246900E936BA /* ViewModels */ = {
+		CA548E8464415C771DCF1EB273F9C55F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2B6282AC1DB4248F00E936BA /* GameSquareViewModel.swift */,
+				CDCFDC16463F4742DC5171573F793EBE /* GameSquareViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		60249D441DB2B3F100F7E87A = {
+		3315C2F7BBE0805F76E18FC916D6F61A = {
 			isa = PBXGroup;
 			children = (
-				60249D4F1DB2B3F100F7E87A /* Sweeper2 */,
-				60249D641DB2B3F100F7E87A /* Sweeper2Tests */,
-				60249D4E1DB2B3F100F7E87A /* Products */,
-				DB928F4B15C525EEB45297BA /* Pods */,
-				1804868D1865E69A84DE64C4 /* Frameworks */,
+				5B68721A426954C5A6DBAA1DB2DAAEE6 /* Frameworks */,
+				6500FCBAC9F3C460903387E61F788B78 /* Pods */,
+				629EE7BF23EA45CC729F6137FFF3FE95 /* Products */,
+				63EB51BCD5434749DE206C2B5B4C8A57 /* Sweeper2 */,
+				C6F93E9A967A86FF9D50ACB31DD0B6C2 /* Sweeper2Tests */,
 			);
 			sourceTree = "<group>";
 		};
-		60249D4E1DB2B3F100F7E87A /* Products */ = {
+		629EE7BF23EA45CC729F6137FFF3FE95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60249D4D1DB2B3F100F7E87A /* Sweeper2.app */,
-				60249D611DB2B3F100F7E87A /* Sweeper2Tests.xctest */,
+				D1CB480848994F2871B48C5C11323A68 /* Sweeper2.app */,
+				A5C9B944139B1D5ABAF37A6E8D08CB29 /* Sweeper2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60249D4F1DB2B3F100F7E87A /* Sweeper2 */ = {
+		63EB51BCD5434749DE206C2B5B4C8A57 /* Sweeper2 */ = {
 			isa = PBXGroup;
 			children = (
-				2B6282AB1DB4246900E936BA /* ViewModels */,
-				6089B8BC1DB40D8700AD6F19 /* Views */,
-				60249D701DB2B50D00F7E87A /* Models */,
-				60249D501DB2B3F100F7E87A /* AppDelegate.swift */,
-				60249D521DB2B3F100F7E87A /* ViewController.swift */,
-				60249D541DB2B3F100F7E87A /* Main.storyboard */,
-				60249D571DB2B3F100F7E87A /* Assets.xcassets */,
-				60249D591DB2B3F100F7E87A /* LaunchScreen.storyboard */,
-				60249D5C1DB2B3F100F7E87A /* Info.plist */,
+				F44DFDAC314F38E774BCB5222A3B7671 /* Models */,
+				CA548E8464415C771DCF1EB273F9C55F /* ViewModels */,
+				14C9925780CCC30290301D91298D9B84 /* Views */,
+				D05A92BCBD9964F5CC78C9DA5D1D4ECD /* AppDelegate.swift */,
+				F4FC393B24FCB706BC0953CF1DE36917 /* Assets.xcassets */,
+				FD428F25E97CCEE76AAA1A1973323DC1 /* Info.plist */,
+				E91363827B71C3539216514BC7238B00 /* LaunchScreen.storyboard */,
+				599C63A0501A25C5FDCEB26FB873053A /* Main.storyboard */,
+				DAB24865C7214A93520EA186413B3431 /* ViewController.swift */,
 			);
 			path = Sweeper2;
 			sourceTree = "<group>";
 		};
-		60249D641DB2B3F100F7E87A /* Sweeper2Tests */ = {
+		C6F93E9A967A86FF9D50ACB31DD0B6C2 /* Sweeper2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6089B8B91DB3EBB600AD6F19 /* Mocks */,
-				60249D651DB2B3F100F7E87A /* Sweeper2Tests.swift */,
-				60249D671DB2B3F100F7E87A /* Info.plist */,
-				60249D751DB2BA5E00F7E87A /* GameSquareTests.swift */,
-				6089B8B71DB2C6D600AD6F19 /* GameBoardTests.swift */,
+				800E92325A54F0645D56B00098E1763F /* Mocks */,
+				98F173BD85E36070FAADC2C29A8B8145 /* GameBoardTests.swift */,
+				E43ACDEFFE0A593C8DD7F47771BC62F0 /* GameSquareTests.swift */,
+				7BEAF8D955BFA40D8EC368A421210EAB /* Info.plist */,
+				7265FEDF08767491AA401D3E582F4579 /* Sweeper2Tests.swift */,
 			);
 			path = Sweeper2Tests;
 			sourceTree = "<group>";
 		};
-		60249D701DB2B50D00F7E87A /* Models */ = {
+		F44DFDAC314F38E774BCB5222A3B7671 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				60249D711DB2B53000F7E87A /* GameBoard.swift */,
-				60249D731DB2B55E00F7E87A /* GameSquare.swift */,
+				D7E2442D781E1290415B24D6F1F91315 /* GameBoard.swift */,
+				976CEB7F712C12F61F7FEA6E94BCDD17 /* GameSquare.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		6089B8B91DB3EBB600AD6F19 /* Mocks */ = {
+		800E92325A54F0645D56B00098E1763F /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				6089B8BA1DB3EBE100AD6F19 /* TestableGameSquare.swift */,
+				F42F92ED9E6FE3176BBF064F2BF41FDD /* TestableGameSquare.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
 		};
-		6089B8BC1DB40D8700AD6F19 /* Views */ = {
+		14C9925780CCC30290301D91298D9B84 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2B6282AE1DB5229400E936BA /* GameSquareView.swift */,
+				6151D9AA0E73D4A7B0A033524D59E12F /* GameSquareView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		DB928F4B15C525EEB45297BA /* Pods */ = {
+		6500FCBAC9F3C460903387E61F788B78 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3F283973B475CA472B2D98E0 /* Pods-Sweeper2.debug.xcconfig */,
-				08F0905EF1FA6A43BF489BF9 /* Pods-Sweeper2.release.xcconfig */,
-				CF590FB2710622679655F37E /* Pods-Sweeper2Tests.debug.xcconfig */,
-				C75E5D727C850B191175F8C2 /* Pods-Sweeper2Tests.release.xcconfig */,
+				7EBCB5E6E842B58496B4FDC3683A04A0 /* Pods-Sweeper2.debug.xcconfig */,
+				DBA1E59EF95A0E87341C3DE58C7836F3 /* Pods-Sweeper2.release.xcconfig */,
+				BA3DCCE6345F151F60C8B0D30B568266 /* Pods-Sweeper2Tests.debug.xcconfig */,
+				A2D1AA99A2E73C4CFFF0EBA401D59831 /* Pods-Sweeper2Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -184,16 +184,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60249D4C1DB2B3F100F7E87A /* Sweeper2 */ = {
+		FACE04F59B5466CB63D3F1A1E8667D81 /* Sweeper2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60249D6A1DB2B3F100F7E87A /* Build configuration list for PBXNativeTarget "Sweeper2" */;
+			buildConfigurationList = BB82795D3F90061CFCCFBAB30252B44F /* Build configuration list for PBXNativeTarget "Sweeper2" */;
 			buildPhases = (
-				FAB6DB8EC501D2B896E79033 /* [CP] Check Pods Manifest.lock */,
-				60249D491DB2B3F100F7E87A /* Sources */,
-				60249D4A1DB2B3F100F7E87A /* Frameworks */,
-				60249D4B1DB2B3F100F7E87A /* Resources */,
-				4145A9BBE0584D5384EA1621 /* [CP] Embed Pods Frameworks */,
-				86321F598C1FAD9F374CDF37 /* [CP] Copy Pods Resources */,
+				77E296EC431E9724680420A5DE716F9D /* [CP] Check Pods Manifest.lock */,
+				0E62296F950C23011F4CB523A6430F0A /* Sources */,
+				3A61989A116CB12399D902170BAC9DB8 /* Frameworks */,
+				D2BCFC65E4C716CBC34B921A54DF2D3F /* Resources */,
+				BEAEE02482E656E9D4AFAB875C78C39C /* [CP] Embed Pods Frameworks */,
+				48775F618FF7F4A41BC8BC563F177F96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,54 +201,54 @@
 			);
 			name = Sweeper2;
 			productName = Sweeper2;
-			productReference = 60249D4D1DB2B3F100F7E87A /* Sweeper2.app */;
+			productReference = D1CB480848994F2871B48C5C11323A68 /* Sweeper2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		60249D601DB2B3F100F7E87A /* Sweeper2Tests */ = {
+		1495C23D79BE5B189085A498A9094EFB /* Sweeper2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60249D6D1DB2B3F100F7E87A /* Build configuration list for PBXNativeTarget "Sweeper2Tests" */;
+			buildConfigurationList = B055246ED0D8046F8DF2AF6D12603EBC /* Build configuration list for PBXNativeTarget "Sweeper2Tests" */;
 			buildPhases = (
-				115B0CF621E26D85AB3A081D /* [CP] Check Pods Manifest.lock */,
-				60249D5D1DB2B3F100F7E87A /* Sources */,
-				60249D5E1DB2B3F100F7E87A /* Frameworks */,
-				60249D5F1DB2B3F100F7E87A /* Resources */,
-				846B5B1D2AFA2A8C80FA4B38 /* [CP] Embed Pods Frameworks */,
-				5FB8D250372654E495B93245 /* [CP] Copy Pods Resources */,
+				55639A182CFB086B22D367022281D886 /* [CP] Check Pods Manifest.lock */,
+				A4E1698FC3969BC09B0E2719AE481B2A /* Sources */,
+				49B37B71219D705A4C14E972CC1334D8 /* Frameworks */,
+				166B2C18E3228EF3FE1E755F4FF477CF /* Resources */,
+				9322196EBCC1298DE2817D4E7659C760 /* [CP] Embed Pods Frameworks */,
+				F549574740BB8EB5FB36EA6A3C79ACEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				60249D631DB2B3F100F7E87A /* PBXTargetDependency */,
+				2A83200AFE5CE73EE9687EC86F1E3FCA /* PBXTargetDependency */,
 			);
 			name = Sweeper2Tests;
 			productName = Sweeper2Tests;
-			productReference = 60249D611DB2B3F100F7E87A /* Sweeper2Tests.xctest */;
+			productReference = A5C9B944139B1D5ABAF37A6E8D08CB29 /* Sweeper2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		60249D451DB2B3F100F7E87A /* Project object */ = {
+		6599C2FED11C8F164A0E810ED0BE26E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Michael Chaffee";
 				TargetAttributes = {
-					60249D4C1DB2B3F100F7E87A = {
+					FACE04F59B5466CB63D3F1A1E8667D81 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = H7TG4MJ93Z;
 						ProvisioningStyle = Automatic;
 					};
-					60249D601DB2B3F100F7E87A = {
+					1495C23D79BE5B189085A498A9094EFB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = H7TG4MJ93Z;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 60249D4C1DB2B3F100F7E87A;
+						TestTargetID = FACE04F59B5466CB63D3F1A1E8667D81;
 					};
 				};
 			};
-			buildConfigurationList = 60249D481DB2B3F100F7E87A /* Build configuration list for PBXProject "Sweeper2" */;
+			buildConfigurationList = 6F1898EB1AB12E9290DB6748A582B31D /* Build configuration list for PBXProject "Sweeper2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -256,29 +256,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 60249D441DB2B3F100F7E87A;
-			productRefGroup = 60249D4E1DB2B3F100F7E87A /* Products */;
+			mainGroup = 3315C2F7BBE0805F76E18FC916D6F61A;
+			productRefGroup = 629EE7BF23EA45CC729F6137FFF3FE95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60249D4C1DB2B3F100F7E87A /* Sweeper2 */,
-				60249D601DB2B3F100F7E87A /* Sweeper2Tests */,
+				FACE04F59B5466CB63D3F1A1E8667D81 /* Sweeper2 */,
+				1495C23D79BE5B189085A498A9094EFB /* Sweeper2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		60249D4B1DB2B3F100F7E87A /* Resources */ = {
+		D2BCFC65E4C716CBC34B921A54DF2D3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60249D5B1DB2B3F100F7E87A /* LaunchScreen.storyboard in Resources */,
-				60249D581DB2B3F100F7E87A /* Assets.xcassets in Resources */,
-				60249D561DB2B3F100F7E87A /* Main.storyboard in Resources */,
+				25DF376A79E5F66345A379933B453DAD /* Assets.xcassets in Resources */,
+				2B29C774A14C671504936CD9BD9CE541 /* LaunchScreen.storyboard in Resources */,
+				333AB6764F8435417E5E995DF398F27D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60249D5F1DB2B3F100F7E87A /* Resources */ = {
+		166B2C18E3228EF3FE1E755F4FF477CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,7 +288,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		115B0CF621E26D85AB3A081D /* [CP] Check Pods Manifest.lock */ = {
+		55639A182CFB086B22D367022281D886 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,7 +303,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4145A9BBE0584D5384EA1621 /* [CP] Embed Pods Frameworks */ = {
+		BEAEE02482E656E9D4AFAB875C78C39C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,7 +318,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5FB8D250372654E495B93245 /* [CP] Copy Pods Resources */ = {
+		F549574740BB8EB5FB36EA6A3C79ACEC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +333,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		846B5B1D2AFA2A8C80FA4B38 /* [CP] Embed Pods Frameworks */ = {
+		9322196EBCC1298DE2817D4E7659C760 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +348,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sweeper2Tests/Pods-Sweeper2Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86321F598C1FAD9F374CDF37 /* [CP] Copy Pods Resources */ = {
+		48775F618FF7F4A41BC8BC563F177F96 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,7 +363,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FAB6DB8EC501D2B896E79033 /* [CP] Check Pods Manifest.lock */ = {
+		77E296EC431E9724680420A5DE716F9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,53 +381,53 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60249D491DB2B3F100F7E87A /* Sources */ = {
+		0E62296F950C23011F4CB523A6430F0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60249D531DB2B3F100F7E87A /* ViewController.swift in Sources */,
-				60249D721DB2B53000F7E87A /* GameBoard.swift in Sources */,
-				2B6282AD1DB4248F00E936BA /* GameSquareViewModel.swift in Sources */,
-				2B6282AF1DB5229400E936BA /* GameSquareView.swift in Sources */,
-				60249D741DB2B55E00F7E87A /* GameSquare.swift in Sources */,
-				60249D511DB2B3F100F7E87A /* AppDelegate.swift in Sources */,
+				E2CA1B61EB474A5A94D907EF1A84322F /* AppDelegate.swift in Sources */,
+				6B50F568CC25F526300674B54B0E99AE /* GameBoard.swift in Sources */,
+				576C4D195A12F8F61E74A0FAA1773094 /* GameSquare.swift in Sources */,
+				EDEA13C40B0B87AA64ABA92E363906C5 /* GameSquareView.swift in Sources */,
+				702CAA95FACFD2DDC33F947CEE01FA30 /* GameSquareViewModel.swift in Sources */,
+				CE5665D5CF92520CBC0AD7CF469E26CB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60249D5D1DB2B3F100F7E87A /* Sources */ = {
+		A4E1698FC3969BC09B0E2719AE481B2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60249D761DB2BA5E00F7E87A /* GameSquareTests.swift in Sources */,
-				60249D661DB2B3F100F7E87A /* Sweeper2Tests.swift in Sources */,
-				6089B8BB1DB3EBE100AD6F19 /* TestableGameSquare.swift in Sources */,
-				6089B8B81DB2C6D600AD6F19 /* GameBoardTests.swift in Sources */,
+				91E585408AC3660BEDB3102730808187 /* GameBoardTests.swift in Sources */,
+				821052E2F65B5C8BD4892A261BEF544F /* GameSquareTests.swift in Sources */,
+				37D6D5BFF0A3F9E46EBF27BBF4A18969 /* Sweeper2Tests.swift in Sources */,
+				8E557B6FA947E2D3A82803A2A373857E /* TestableGameSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		60249D631DB2B3F100F7E87A /* PBXTargetDependency */ = {
+		2A83200AFE5CE73EE9687EC86F1E3FCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 60249D4C1DB2B3F100F7E87A /* Sweeper2 */;
-			targetProxy = 60249D621DB2B3F100F7E87A /* PBXContainerItemProxy */;
+			target = FACE04F59B5466CB63D3F1A1E8667D81 /* Sweeper2 */;
+			targetProxy = 3675837033047EE09BBDE1FAAAC4618D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		60249D541DB2B3F100F7E87A /* Main.storyboard */ = {
+		599C63A0501A25C5FDCEB26FB873053A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60249D551DB2B3F100F7E87A /* Base */,
+				D3C577A348D9497BC25A3A91AC9B0905 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		60249D591DB2B3F100F7E87A /* LaunchScreen.storyboard */ = {
+		E91363827B71C3539216514BC7238B00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60249D5A1DB2B3F100F7E87A /* Base */,
+				CF7881FCB20F995A2A61F546F43EEF3B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -435,7 +435,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		60249D681DB2B3F100F7E87A /* Debug */ = {
+		3A0CE4668C8287D3202D61FE49AA2406 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		60249D691DB2B3F100F7E87A /* Release */ = {
+		11D2AE26F95FDF88AAD2A999E035EE26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -528,9 +528,9 @@
 			};
 			name = Release;
 		};
-		60249D6B1DB2B3F100F7E87A /* Debug */ = {
+		3843671C4CFB56EB6BB3C83FC3E06BB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F283973B475CA472B2D98E0 /* Pods-Sweeper2.debug.xcconfig */;
+			baseConfigurationReference = 7EBCB5E6E842B58496B4FDC3683A04A0 /* Pods-Sweeper2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H7TG4MJ93Z;
@@ -542,9 +542,9 @@
 			};
 			name = Debug;
 		};
-		60249D6C1DB2B3F100F7E87A /* Release */ = {
+		E3C20CE74BE71AAAA9269E6B6C189554 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08F0905EF1FA6A43BF489BF9 /* Pods-Sweeper2.release.xcconfig */;
+			baseConfigurationReference = DBA1E59EF95A0E87341C3DE58C7836F3 /* Pods-Sweeper2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H7TG4MJ93Z;
@@ -556,9 +556,9 @@
 			};
 			name = Release;
 		};
-		60249D6E1DB2B3F100F7E87A /* Debug */ = {
+		C7C697B1F71B6B293F4681F34828C2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF590FB2710622679655F37E /* Pods-Sweeper2Tests.debug.xcconfig */;
+			baseConfigurationReference = BA3DCCE6345F151F60C8B0D30B568266 /* Pods-Sweeper2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,9 +572,9 @@
 			};
 			name = Debug;
 		};
-		60249D6F1DB2B3F100F7E87A /* Release */ = {
+		5065F65EC5EC371960BDFECF9C12C592 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C75E5D727C850B191175F8C2 /* Pods-Sweeper2Tests.release.xcconfig */;
+			baseConfigurationReference = A2D1AA99A2E73C4CFFF0EBA401D59831 /* Pods-Sweeper2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,34 +591,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60249D481DB2B3F100F7E87A /* Build configuration list for PBXProject "Sweeper2" */ = {
+		6F1898EB1AB12E9290DB6748A582B31D /* Build configuration list for PBXProject "Sweeper2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60249D681DB2B3F100F7E87A /* Debug */,
-				60249D691DB2B3F100F7E87A /* Release */,
+				3A0CE4668C8287D3202D61FE49AA2406 /* Debug */,
+				11D2AE26F95FDF88AAD2A999E035EE26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60249D6A1DB2B3F100F7E87A /* Build configuration list for PBXNativeTarget "Sweeper2" */ = {
+		BB82795D3F90061CFCCFBAB30252B44F /* Build configuration list for PBXNativeTarget "Sweeper2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60249D6B1DB2B3F100F7E87A /* Debug */,
-				60249D6C1DB2B3F100F7E87A /* Release */,
+				3843671C4CFB56EB6BB3C83FC3E06BB0 /* Debug */,
+				E3C20CE74BE71AAAA9269E6B6C189554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60249D6D1DB2B3F100F7E87A /* Build configuration list for PBXNativeTarget "Sweeper2Tests" */ = {
+		B055246ED0D8046F8DF2AF6D12603EBC /* Build configuration list for PBXNativeTarget "Sweeper2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60249D6E1DB2B3F100F7E87A /* Debug */,
-				60249D6F1DB2B3F100F7E87A /* Release */,
+				C7C697B1F71B6B293F4681F34828C2C3 /* Debug */,
+				5065F65EC5EC371960BDFECF9C12C592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 60249D451DB2B3F100F7E87A /* Project object */;
+	rootObject = 6599C2FED11C8F164A0E810ED0BE26E9 /* Project object */;
 }
