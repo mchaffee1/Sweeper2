@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6282AD1DB4248F00E936BA /* GameSquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6282AC1DB4248F00E936BA /* GameSquareViewModel.swift */; };
+		2B6282AF1DB5229400E936BA /* GameSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6282AE1DB5229400E936BA /* GameSquareView.swift */; };
 		60249D511DB2B3F100F7E87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D501DB2B3F100F7E87A /* AppDelegate.swift */; };
 		60249D531DB2B3F100F7E87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60249D521DB2B3F100F7E87A /* ViewController.swift */; };
 		60249D561DB2B3F100F7E87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60249D541DB2B3F100F7E87A /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		08F0905EF1FA6A43BF489BF9 /* Pods-Sweeper2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2.release.xcconfig"; sourceTree = "<group>"; };
+		2B6282AC1DB4248F00E936BA /* GameSquareViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSquareViewModel.swift; sourceTree = "<group>"; };
+		2B6282AE1DB5229400E936BA /* GameSquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameSquareView.swift; path = Sweeper2/ViewModels/GameSquareView.swift; sourceTree = SOURCE_ROOT; };
 		3F283973B475CA472B2D98E0 /* Pods-Sweeper2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweeper2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sweeper2/Pods-Sweeper2.debug.xcconfig"; sourceTree = "<group>"; };
 		60249D4D1DB2B3F100F7E87A /* Sweeper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweeper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60249D501DB2B3F100F7E87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2B6282AB1DB4246900E936BA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B6282AC1DB4248F00E936BA /* GameSquareViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		60249D441DB2B3F100F7E87A = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +120,7 @@
 		60249D4F1DB2B3F100F7E87A /* Sweeper2 */ = {
 			isa = PBXGroup;
 			children = (
+				2B6282AB1DB4246900E936BA /* ViewModels */,
 				6089B8BC1DB40D8700AD6F19 /* Views */,
 				60249D701DB2B50D00F7E87A /* Models */,
 				60249D501DB2B3F100F7E87A /* AppDelegate.swift */,
@@ -152,6 +165,7 @@
 		6089B8BC1DB40D8700AD6F19 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2B6282AE1DB5229400E936BA /* GameSquareView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -373,6 +387,8 @@
 			files = (
 				60249D531DB2B3F100F7E87A /* ViewController.swift in Sources */,
 				60249D721DB2B53000F7E87A /* GameBoard.swift in Sources */,
+				2B6282AD1DB4248F00E936BA /* GameSquareViewModel.swift in Sources */,
+				2B6282AF1DB5229400E936BA /* GameSquareView.swift in Sources */,
 				60249D741DB2B55E00F7E87A /* GameSquare.swift in Sources */,
 				60249D511DB2B3F100F7E87A /* AppDelegate.swift in Sources */,
 			);
